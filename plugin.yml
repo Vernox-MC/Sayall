@@ -1,0 +1,16 @@
+name: Sayall
+main: VernoxMC\Sayall\Main
+version: 0.0.1
+api: 3.0.0
+load: POSTWORLD
+author: VernoxMC
+
+
+commands:
+ sayall:
+  description: "Make everyone online on the server say something"
+  permission: sayall
+
+permissions:
+ sayall:
+  default: true
